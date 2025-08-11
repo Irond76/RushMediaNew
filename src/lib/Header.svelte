@@ -189,21 +189,6 @@
     position: relative;
   }
 
-  .logo-section::before {
-    content: '';
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 85%;
-    height: 120%;
-    background: rgba(255, 255, 255, 0.08);
-    backdrop-filter: blur(20px);
-    border-radius: 30px;
-    border: 1px solid rgba(255, 255, 255, 0.15);
-    z-index: 1;
-  }
-
   .hero-logo {
     width: 80%;
     height: auto;
@@ -211,20 +196,22 @@
     position: relative;
     z-index: 2;
     filter: 
-      drop-shadow(0 8px 25px rgba(0, 0, 0, 0.4))
-      drop-shadow(0 0 40px rgba(255, 255, 255, 0.2))
-      brightness(1.1)
-      contrast(1.1);
-    transition: transform 0.4s ease;
+      drop-shadow(0 10px 30px rgba(0, 0, 0, 0.6))
+      drop-shadow(0 0 60px rgba(255, 255, 255, 0.4))
+      brightness(1.15)
+      contrast(1.2)
+      saturate(1.1);
+    transition: transform 0.4s ease, filter 0.3s ease;
   }
 
   .hero-logo:hover {
     transform: scale(1.02);
-  }
-
-  .logo-section:hover::before {
-    background: rgba(255, 255, 255, 0.12);
-    border-color: rgba(255, 255, 255, 0.25);
+    filter: 
+      drop-shadow(0 15px 40px rgba(0, 0, 0, 0.7))
+      drop-shadow(0 0 80px rgba(255, 255, 255, 0.5))
+      brightness(1.2)
+      contrast(1.25)
+      saturate(1.15);
   }
 
   .hero-content {
@@ -437,9 +424,8 @@
       gap: 3rem;
     }
 
-    .logo-section::before {
-      width: 90%;
-      height: 110%;
+    .logo-section {
+      padding: 1.5rem 0;
     }
 
     .hero-logo {
@@ -489,11 +475,6 @@
       justify-content: flex-start;
     }
 
-    .logo-section::before {
-      width: 85%;
-      height: 105%;
-    }
-
     .hero-logo {
       width: 75%;
     }
@@ -505,11 +486,6 @@
   }
 
   @media (min-width: 1200px) {
-    .logo-section::before {
-      width: 80%;
-      height: 100%;
-    }
-
     .hero-logo {
       width: 70%;
     }
