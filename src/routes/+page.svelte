@@ -1,4 +1,5 @@
 <!-- SEO Meta Tags for Homepage -->
+ 
 <svelte:head>
   <title>Rush Media Tech - Professional Photography, Video Production & Web Development in Raleigh, NC</title>
   <meta name="description" content="Professional media and web development services in Raleigh, North Carolina. We create stunning photography, compelling video content, and high-performance websites that drive real business results." />
@@ -85,8 +86,10 @@
       "https://www.linkedin.com/company/rushmediatech"
     ]
   }
+  
   </script>
 </svelte:head>
+
 
 <!-- Homepage Hero Content -->
 <section class="hero-content-section">
