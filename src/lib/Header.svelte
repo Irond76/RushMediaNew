@@ -38,7 +38,7 @@
       </p>
       
       <div class="hero-buttons">
-        <a href="/contact" class="btn-primary">
+        <a href="mailto:dale@rushmediatech.com?subject=New Project Inquiry&body=Hi Dale,%0D%0A%0D%0AI'm interested in discussing a new project with Rush Media Tech. Please let me know when we can schedule a time to talk.%0D%0A%0D%0AThank you!" class="btn-primary">
           <span>Start Your Project</span>
           <svg class="btn-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor">
             <path d="M5 12h14M12 5l7 7-7 7"/>
