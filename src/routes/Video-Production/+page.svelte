@@ -1,5 +1,5 @@
-<!-- Visual Content & Media Service Page -->
-<section class="visual-content-page">
+<!-- Video Production Service Page -->
+<section class="video-production-page">
   <!-- Navigation -->
   <nav class="page-nav">
     <div class="nav-container">
@@ -19,25 +19,24 @@
       <div class="hero-content">
         <div class="service-badge">
           <svg class="badge-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor">
-            <rect x="3" y="3" width="18" height="18" rx="2" ry="2"/>
-            <circle cx="9" cy="9" r="2"/>
-            <path d="m21 15-3.086-3.086a2 2 0 0 0-2.828 0L6 21"/>
+            <polygon points="23 7 16 12 23 17 23 7"/>
+            <rect x="1" y="5" width="15" height="14" rx="2" ry="2"/>
           </svg>
-          <span>Visual Content & Media</span>
+          <span>Video Production</span>
         </div>
         
         <h1 class="page-title">
-          Create Content That 
-          <span class="gradient-text">Stops the Scroll</span>
+          Bring Your Story to Life with 
+          <span class="gradient-text">Compelling Video</span>
         </h1>
         
         <p class="hero-description">
-          In today's fast-paced digital world, you have mere seconds to capture attention. Our professional photography and video content doesn't just look good—it drives engagement, builds trust, and converts viewers into customers.
+          Video is the most powerful medium for storytelling and engagement. From corporate training modules to social media campaigns, we create video content that captures attention, builds trust, and drives action across all platforms.
         </p>
         
         <div class="hero-buttons">
-          <a href="mailto:dale@rushmediatech.com?subject=Visual Content Project Inquiry&body=Hi Dale,%0D%0A%0D%0AI'm interested in visual content services for my business. Please let me know when we can discuss my project needs.%0D%0A%0D%0AThank you!" class="btn-primary">
-            <span>Start Your Visual Project</span>
+          <a href="mailto:dale@rushmediatech.com?subject=Video Production Project Inquiry&body=Hi Dale,%0D%0A%0D%0AI'm interested in video production services for my business. Please let me know when we can discuss my project needs.%0D%0A%0D%0AThank you!" class="btn-primary">
+            <span>Start Your Video Project</span>
             <svg class="btn-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor">
               <path d="M5 12h14M12 5l7 7-7 7"/>
             </svg>
@@ -46,11 +45,11 @@
       </div>
       
       <div class="hero-visual">
-        <div class="visual-showcase">
-          <div class="showcase-item item-1">📸</div>
-          <div class="showcase-item item-2">🎥</div>
-          <div class="showcase-item item-3">🖼️</div>
-          <div class="showcase-item item-4">📱</div>
+        <div class="video-showcase">
+          <div class="showcase-item item-1">🎬</div>
+          <div class="showcase-item item-2">📹</div>
+          <div class="showcase-item item-3">🎞️</div>
+          <div class="showcase-item item-4">📺</div>
         </div>
       </div>
     </div>
@@ -60,60 +59,48 @@
   <div class="services-section">
     <div class="container">
       <div class="section-header">
-        <h2>Our Visual Content Services</h2>
-        <p>From concept to delivery, we create visual content that tells your story and drives results.</p>
+        <h2>Our Video Production Services</h2>
+        <p>From concept to final cut, we create video content that engages audiences and delivers results.</p>
       </div>
       
       <div class="services-grid">
         <div class="service-item">
           <div class="service-icon">
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor">
-              <rect x="3" y="3" width="18" height="18" rx="2" ry="2"/>
-              <circle cx="9" cy="9" r="2"/>
-              <path d="m21 15-3.086-3.086a2 2 0 0 0-2.828 0L6 21"/>
+              <rect x="2" y="2" width="20" height="20" rx="2.18" ry="2.18"/>
+              <line x1="7" y1="2" x2="7" y2="22"/>
+              <line x1="17" y1="2" x2="17" y2="22"/>
+              <line x1="2" y1="12" x2="22" y2="12"/>
+              <line x1="2" y1="7" x2="7" y2="7"/>
+              <line x1="2" y1="17" x2="7" y2="17"/>
+              <line x1="17" y1="17" x2="22" y2="17"/>
+              <line x1="17" y1="7" x2="22" y2="7"/>
             </svg>
           </div>
-          <h3>Product Photography</h3>
-          <p>Stunning product shots that showcase your items in their best light. Perfect for e-commerce, catalogs, and marketing materials.</p>
+          <h3>Corporate Training Videos</h3>
+          <p>Professional training content that educates and engages employees. Clear, concise videos that improve knowledge retention and compliance.</p>
           <ul class="feature-list">
-            <li>High-resolution images</li>
-            <li>Multiple angles and styles</li>
-            <li>Lifestyle and studio shots</li>
-            <li>Fast turnaround</li>
+            <li>Employee onboarding videos</li>
+            <li>Safety and compliance training</li>
+            <li>Process documentation</li>
+            <li>Leadership presentations</li>
           </ul>
         </div>
         
         <div class="service-item">
           <div class="service-icon">
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor">
-              <path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z"/>
-              <circle cx="12" cy="13" r="4"/>
+              <path d="M22.54 6.42a2.78 2.78 0 0 0-1.94-2C18.88 4 12 4 12 4s-6.88 0-8.6.46a2.78 2.78 0 0 0-1.94 2A29 29 0 0 0 1 11.75a29 29 0 0 0 .46 5.33A2.78 2.78 0 0 0 3.4 19c1.72.46 8.6.46 8.6.46s6.88 0 8.6-.46a2.78 2.78 0 0 0 1.94-2 29 29 0 0 0 .46-5.25 29 29 0 0 0-.46-5.33z"/>
+              <polygon points="9.75 15.02 15.5 11.75 9.75 8.48 9.75 15.02"/>
             </svg>
           </div>
-          <h3>Social Media Content</h3>
-          <p>Eye-catching visuals optimized for Instagram, Facebook, TikTok, and other platforms. Content that gets likes, shares, and saves.</p>
+          <h3>Promotional Content</h3>
+          <p>Marketing videos that showcase your brand, products, and services. Content designed to convert viewers into customers and build brand awareness.</p>
           <ul class="feature-list">
-            <li>Platform-specific sizing</li>
-            <li>Trending styles and formats</li>
-            <li>Story and feed content</li>
-            <li>Consistent brand aesthetic</li>
-          </ul>
-        </div>
-        
-        <div class="service-item">
-          <div class="service-icon">
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor">
-              <polygon points="23 7 16 12 23 17 23 7"/>
-              <rect x="1" y="5" width="15" height="14" rx="2" ry="2"/>
-            </svg>
-          </div>
-          <h3>Video Content</h3>
-          <p>From quick social clips to professional promotional videos. Engaging content that tells your story and drives action.</p>
-          <ul class="feature-list">
-            <li>Short-form social videos</li>
             <li>Product demonstrations</li>
-            <li>Behind-the-scenes content</li>
-            <li>Promotional campaigns</li>
+            <li>Brand storytelling videos</li>
+            <li>Customer testimonials</li>
+            <li>Company culture videos</li>
           </ul>
         </div>
         
@@ -125,13 +112,30 @@
               <line x1="12" y1="17" x2="12" y2="21"/>
             </svg>
           </div>
-          <h3>Corporate Content</h3>
-          <p>Professional imagery for your business needs. Headshots, team photos, office spaces, and corporate events.</p>
+          <h3>Interview Segments</h3>
+          <p>Professional interview setups that capture authentic conversations. Perfect for thought leadership, expert insights, and executive communications.</p>
           <ul class="feature-list">
-            <li>Executive headshots</li>
-            <li>Team photography</li>
-            <li>Office and facility tours</li>
-            <li>Event documentation</li>
+            <li>Executive interviews</li>
+            <li>Expert panel discussions</li>
+            <li>Customer success stories</li>
+            <li>Industry insights</li>
+          </ul>
+        </div>
+        
+        <div class="service-item">
+          <div class="service-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor">
+              <path d="M23 7l-7 5 7 5V7z"/>
+              <rect x="1" y="5" width="15" height="14" rx="2" ry="2"/>
+            </svg>
+          </div>
+          <h3>Social Media Videos</h3>
+          <p>Short-form content optimized for social platforms. Engaging videos that drive shares, comments, and brand engagement across all channels.</p>
+          <ul class="feature-list">
+            <li>Instagram Reels and Stories</li>
+            <li>TikTok content creation</li>
+            <li>LinkedIn video posts</li>
+            <li>Facebook video campaigns</li>
           </ul>
         </div>
       </div>
@@ -142,41 +146,71 @@
   <div class="process-section">
     <div class="container">
       <div class="section-header">
-        <h2>Our Creative Process</h2>
-        <p>From initial concept to final delivery, we ensure every project exceeds expectations.</p>
+        <h2>Our Video Production Process</h2>
+        <p>From script to screen, we handle every aspect of video production with precision and creativity.</p>
       </div>
       
       <div class="process-steps">
         <div class="step">
           <div class="step-number">01</div>
           <div class="step-content">
-            <h3>Discovery & Planning</h3>
-            <p>We start by understanding your brand, goals, and target audience. Then we develop a creative strategy that aligns with your vision.</p>
+            <h3>Pre-Production</h3>
+            <p>We start with your goals and develop a comprehensive plan. Scriptwriting, storyboarding, location scouting, and talent coordination.</p>
           </div>
         </div>
         
         <div class="step">
           <div class="step-number">02</div>
           <div class="step-content">
-            <h3>Creative Development</h3>
-            <p>Our team creates mood boards, shot lists, and concepts. We collaborate with you to refine the creative direction before production begins.</p>
+            <h3>Production</h3>
+            <p>Professional filming with high-quality equipment and experienced crew. We handle lighting, audio, multiple camera angles, and direction.</p>
           </div>
         </div>
         
         <div class="step">
           <div class="step-number">03</div>
           <div class="step-content">
-            <h3>Production</h3>
-            <p>Professional photography and videography using state-of-the-art equipment. We handle all technical aspects while you focus on your business.</p>
+            <h3>Post-Production</h3>
+            <p>Expert editing, color grading, audio mixing, and motion graphics. We create polished content that meets your brand standards.</p>
           </div>
         </div>
         
         <div class="step">
           <div class="step-number">04</div>
           <div class="step-content">
-            <h3>Post-Production</h3>
-            <p>Expert editing, color correction, and optimization. We deliver high-quality files ready for use across all your marketing channels.</p>
+            <h3>Delivery & Distribution</h3>
+            <p>Final videos delivered in all required formats and resolutions. We can also assist with platform optimization and distribution strategy.</p>
           </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Benefits Section -->
+  <div class="benefits-section">
+    <div class="container">
+      <div class="section-header">
+        <h2>Why Video Works</h2>
+        <p>Video content delivers measurable results across every business metric that matters.</p>
+      </div>
+      
+      <div class="benefits-grid">
+        <div class="benefit-item">
+          <div class="benefit-stat">80%</div>
+          <h3>Higher Engagement</h3>
+          <p>Video content receives significantly more engagement than static posts across all social platforms.</p>
+        </div>
+        
+        <div class="benefit-item">
+          <div class="benefit-stat">95%</div>
+          <h3>Message Retention</h3>
+          <p>Viewers retain 95% of a message when watching video, compared to 10% when reading text.</p>
+        </div>
+        
+        <div class="benefit-item">
+          <div class="benefit-stat">300%</div>
+          <h3>Conversion Boost</h3>
+          <p>Landing pages with video see up to 300% higher conversion rates than those without.</p>
         </div>
       </div>
     </div>
@@ -186,9 +220,9 @@
   <div class="cta-section">
     <div class="container">
       <div class="cta-content">
-        <h2>Ready to Create Amazing Visual Content?</h2>
-        <p>Let's discuss your project and create content that drives real results for your business.</p>
-        <a href="mailto:dale@rushmediatech.com?subject=Visual Content Project Inquiry&body=Hi Dale,%0D%0A%0D%0AI'm ready to start my visual content project. Please let me know when we can schedule a consultation.%0D%0A%0D%0AThank you!" class="btn-primary btn-large">
+        <h2>Ready to Create Powerful Video Content?</h2>
+        <p>Let's discuss your video production needs and create content that drives real business results.</p>
+        <a href="mailto:dale@rushmediatech.com?subject=Video Production Project Inquiry&body=Hi Dale,%0D%0A%0D%0AI'm ready to start my video production project. Please let me know when we can schedule a consultation.%0D%0A%0D%0AThank you!" class="btn-primary btn-large">
           <span>Get Started Today</span>
           <svg class="btn-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor">
             <path d="M5 12h14M12 5l7 7-7 7"/>
@@ -216,7 +250,7 @@
     --font-heading: 'Poppins', var(--font-primary);
   }
 
-  .visual-content-page {
+  .video-production-page {
     background: var(--white);
     color: var(--charcoal);
   }
@@ -309,7 +343,7 @@
     display: inline-flex;
     align-items: center;
     gap: 0.5rem;
-    background: var(--primary-teal);
+    background: var(--accent-coral);
     color: var(--white);
     padding: 0.75rem 1.5rem;
     border-radius: 50px;
@@ -333,7 +367,7 @@
   }
 
   .gradient-text {
-    background: linear-gradient(45deg, var(--primary-teal), var(--accent-coral));
+    background: linear-gradient(45deg, var(--accent-coral), var(--electric-blue));
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -358,7 +392,7 @@
     justify-content: flex-start;
   }
 
-  .btn-primary, .btn-secondary {
+  .btn-primary {
     display: inline-flex;
     align-items: center;
     gap: 0.5rem;
@@ -367,30 +401,14 @@
     text-decoration: none;
     font-weight: 600;
     transition: all 0.3s ease;
-    border: 2px solid transparent;
-  }
-
-  .btn-primary {
-    background: linear-gradient(45deg, var(--accent-orange), var(--accent-coral));
+    background: linear-gradient(45deg, var(--accent-coral), var(--accent-orange));
     color: var(--white);
-    box-shadow: 0 8px 25px rgba(251, 146, 60, 0.3);
+    box-shadow: 0 8px 25px rgba(249, 115, 22, 0.3);
   }
 
   .btn-primary:hover {
     transform: translateY(-2px);
-    box-shadow: 0 12px 35px rgba(251, 146, 60, 0.4);
-  }
-
-  .btn-secondary {
-    background: transparent;
-    color: var(--primary-teal);
-    border-color: var(--primary-teal);
-  }
-
-  .btn-secondary:hover {
-    background: var(--primary-teal);
-    color: var(--white);
-    transform: translateY(-2px);
+    box-shadow: 0 12px 35px rgba(249, 115, 22, 0.4);
   }
 
   .btn-icon {
@@ -410,7 +428,7 @@
     align-items: center;
   }
 
-  .visual-showcase {
+  .video-showcase {
     position: relative;
     width: 300px;
     height: 300px;
@@ -420,14 +438,14 @@
     position: absolute;
     width: 80px;
     height: 80px;
-    background: linear-gradient(45deg, var(--primary-teal), var(--secondary-teal));
+    background: linear-gradient(45deg, var(--accent-coral), var(--electric-blue));
     border-radius: 20px;
     display: flex;
     align-items: center;
     justify-content: center;
     font-size: 2rem;
     color: var(--white);
-    box-shadow: 0 10px 30px rgba(20, 184, 166, 0.3);
+    box-shadow: 0 10px 30px rgba(249, 115, 22, 0.3);
     animation: float 6s ease-in-out infinite;
   }
 
@@ -513,25 +531,25 @@
     left: 0;
     right: 0;
     height: 4px;
-    background: linear-gradient(90deg, var(--primary-teal), var(--accent-coral));
+    background: linear-gradient(90deg, var(--accent-coral), var(--electric-blue));
   }
 
   .service-item:hover {
     transform: translateY(-5px);
-    box-shadow: 0 20px 40px rgba(20, 184, 166, 0.1);
-    border-color: var(--primary-teal);
+    box-shadow: 0 20px 40px rgba(249, 115, 22, 0.1);
+    border-color: var(--accent-coral);
   }
 
   .service-item .service-icon {
     width: 60px;
     height: 60px;
-    background: linear-gradient(45deg, var(--primary-teal), var(--accent-coral));
+    background: linear-gradient(45deg, var(--accent-coral), var(--electric-blue));
     border-radius: 15px;
     display: flex;
     align-items: center;
     justify-content: center;
     margin-bottom: 1.5rem;
-    box-shadow: 0 8px 25px rgba(20, 184, 166, 0.2);
+    box-shadow: 0 8px 25px rgba(249, 115, 22, 0.2);
   }
 
   .service-item .service-icon svg {
@@ -569,11 +587,12 @@
   }
 
   .feature-list li::before {
-    content: '✓';
+    content: '▶';
     position: absolute;
     left: 0;
-    color: var(--primary-teal);
-    font-weight: bold;
+    color: var(--accent-coral);
+    font-size: 0.8rem;
+    top: 2px;
   }
 
   /* Process Section */
@@ -596,7 +615,7 @@
   .step-number {
     width: 60px;
     height: 60px;
-    background: linear-gradient(45deg, var(--primary-teal), var(--accent-coral));
+    background: linear-gradient(45deg, var(--accent-coral), var(--electric-blue));
     color: var(--white);
     border-radius: 50%;
     display: flex;
@@ -605,7 +624,7 @@
     font-weight: 700;
     font-size: 1.2rem;
     margin: 0 auto 1.5rem;
-    box-shadow: 0 8px 25px rgba(20, 184, 166, 0.3);
+    box-shadow: 0 8px 25px rgba(249, 115, 22, 0.3);
   }
 
   .step-content h3 {
@@ -621,10 +640,49 @@
     line-height: 1.6;
   }
 
+  /* Benefits Section */
+  .benefits-section {
+    padding: 6rem 0;
+    background: var(--white);
+  }
+
+  .benefits-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 3rem;
+    margin-top: 3rem;
+  }
+
+  .benefit-item {
+    text-align: center;
+  }
+
+  .benefit-stat {
+    font-size: 3rem;
+    font-weight: 800;
+    color: var(--accent-coral);
+    font-family: var(--font-heading);
+    margin-bottom: 1rem;
+    text-shadow: 0 2px 10px rgba(249, 115, 22, 0.2);
+  }
+
+  .benefit-item h3 {
+    font-family: var(--font-heading);
+    font-size: 1.4rem;
+    font-weight: 600;
+    color: var(--charcoal);
+    margin-bottom: 1rem;
+  }
+
+  .benefit-item p {
+    color: var(--medium-gray);
+    line-height: 1.6;
+  }
+
   /* CTA Section */
   .cta-section {
     padding: 6rem 0;
-    background: linear-gradient(135deg, var(--primary-teal), var(--secondary-teal));
+    background: linear-gradient(135deg, var(--accent-coral), var(--electric-blue));
     color: var(--white);
     text-align: center;
   }
@@ -649,7 +707,7 @@
 
   .cta-section .btn-primary {
     background: var(--white);
-    color: var(--primary-teal);
+    color: var(--accent-coral);
   }
 
   .cta-section .btn-primary:hover {
@@ -668,7 +726,7 @@
       order: -1;
     }
 
-    .visual-showcase {
+    .video-showcase {
       width: 250px;
       height: 250px;
     }
@@ -685,6 +743,11 @@
 
     .process-steps {
       grid-template-columns: 1fr;
+    }
+
+    .benefits-grid {
+      grid-template-columns: 1fr;
+      gap: 2rem;
     }
 
     .hero-buttons {
