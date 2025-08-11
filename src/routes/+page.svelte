@@ -1,3 +1,92 @@
+<!-- SEO Meta Tags for Homepage -->
+<svelte:head>
+  <title>Rush Media Tech - Professional Photography, Video Production & Web Development in Raleigh, NC</title>
+  <meta name="description" content="Professional media and web development services in Raleigh, North Carolina. We create stunning photography, compelling video content, and high-performance websites that drive real business results." />
+  
+  <!-- Keywords -->
+  <meta name="keywords" content="photography Raleigh NC, video production Raleigh, web development Raleigh, professional photographer, corporate video, website design, Rush Media Tech, North Carolina media services, business photography, social media content, promotional videos" />
+  
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Rush Media Tech - Professional Media & Web Services in Raleigh, NC" />
+  <meta property="og:description" content="Professional photography, video production, and web development services that elevate your brand. Serving Raleigh and North Carolina businesses." />
+  <meta property="og:url" content="https://rushmediatech.com" />
+  <meta property="og:image" content="https://rushmediatech.com/og-image.jpg" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+  <meta property="og:locale" content="en_US" />
+  <meta property="og:site_name" content="Rush Media Tech" />
+  
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Rush Media Tech - Professional Media Services in Raleigh, NC" />
+  <meta name="twitter:description" content="Professional photography, video production, and web development services that drive real business results." />
+  <meta name="twitter:image" content="https://rushmediatech.com/twitter-card.jpg" />
+  <meta name="twitter:creator" content="@rushmediatech" />
+  
+  <!-- Local Business Schema -->
+  <meta name="geo.region" content="US-NC" />
+  <meta name="geo.placename" content="Raleigh" />
+  <meta name="geo.position" content="35.7796;-78.6382" />
+  <meta name="ICBM" content="35.7796, -78.6382" />
+  
+  <!-- Business Information -->
+  <meta name="author" content="Rush Media Tech" />
+  <meta name="contact" content="dale@rushmediatech.com" />
+  <meta name="coverage" content="Raleigh, Durham, Cary, Chapel Hill, North Carolina" />
+  <meta name="distribution" content="global" />
+  <meta name="rating" content="general" />
+  <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
+  
+  <!-- Additional SEO -->
+  <meta name="theme-color" content="#14B8A6" />
+  <meta name="msapplication-TileColor" content="#14B8A6" />
+  <link rel="canonical" href="https://rushmediatech.com" />
+  
+  <!-- Structured Data for Local Business -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "name": "Rush Media Tech",
+    "description": "Professional photography, video production, and web development services",
+    "url": "https://rushmediatech.com",
+    "telephone": "+1-XXX-XXX-XXXX",
+    "email": "dale@rushmediatech.com",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Raleigh",
+      "addressRegion": "NC",
+      "addressCountry": "US"
+    },
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": "35.7796",
+      "longitude": "-78.6382"
+    },
+    "areaServed": [
+      "Raleigh",
+      "Durham", 
+      "Cary",
+      "Chapel Hill",
+      "North Carolina"
+    ],
+    "serviceType": [
+      "Photography Services",
+      "Video Production", 
+      "Web Development",
+      "Visual Content Creation"
+    ],
+    "priceRange": "$",
+    "sameAs": [
+      "https://www.facebook.com/rushmediatech",
+      "https://www.instagram.com/rushmediatech",
+      "https://www.linkedin.com/company/rushmediatech"
+    ]
+  }
+  </script>
+</svelte:head>
+
 <!-- Homepage Hero Content -->
 <section class="hero-content-section">
   <div class="hero-container">
