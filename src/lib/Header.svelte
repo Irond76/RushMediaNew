@@ -8,11 +8,20 @@
       margin: 0 !important;
       padding: 0 !important;
       overflow-x: hidden;
+    @media (min-width: 1200px) {
+    .header-logo {
+      width: 55%;
+      max-width: 900px;
     }
+
+    .word {
+      font-size: 2.2rem;
+    }
+  }
   </style>
 </svelte:head>
 
-<header class="hero-header">
+<header class="site-header">
   <!-- Animated Background Elements -->
   <div class="bg-animation">
     <div class="floating-shape shape-1"></div>
@@ -20,71 +29,16 @@
     <div class="floating-shape shape-3"></div>
   </div>
 
-  <div class="hero-container">
+  <div class="header-container">
     <!-- Logo Section -->
     <div class="logo-section">
-      <img src={logoUrl} alt="Rush Media Tech" class="hero-logo" />
-    </div>
-    
-    <!-- Main Content -->
-    <div class="hero-content">
-      <h1 class="hero-title">
-        Elevate Your Brand with 
-        <span class="gradient-text">Professional Media</span>
-      </h1>
+      <img src={logoUrl} alt="Rush Media Tech" class="header-logo" />
       
-      <p class="hero-description">
-        From stunning visuals to powerful websites, we create content that captivates your audience and drives results. Professional photography, video production, and web development that makes your brand stand out.
-      </p>
-      
-      <div class="hero-buttons">
-        <a href="mailto:dale@rushmediatech.com?subject=New Project Inquiry&body=Hi Dale,%0D%0A%0D%0AI'm interested in discussing a new project with Rush Media Tech. Please let me know when we can schedule a time to talk.%0D%0A%0D%0AThank you!" class="btn-primary btn-single">
-          <span>Start Your Project</span>
-          <svg class="btn-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor">
-            <path d="M5 12h14M12 5l7 7-7 7"/>
-          </svg>
-        </a>
-      </div>
-    </div>
-    
-    <!-- Enhanced Services Grid -->
-    <div class="services-grid">
-      <div class="service-card card-1">
-        <div class="service-icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor">
-            <rect x="3" y="3" width="18" height="18" rx="2" ry="2"/>
-            <circle cx="9" cy="9" r="2"/>
-            <path d="m21 15-3.086-3.086a2 2 0 0 0-2.828 0L6 21"/>
-          </svg>
-        </div>
-        <h3>Visual Content & Media</h3>
-        <p>Professional photography and video content that stops the scroll and drives engagement across all platforms.</p>
-        <div class="card-accent"></div>
-      </div>
-      
-      <div class="service-card card-2">
-        <div class="service-icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor">
-            <polygon points="23 7 16 12 23 17 23 7"/>
-            <rect x="1" y="5" width="15" height="14" rx="2" ry="2"/>
-          </svg>
-        </div>
-        <h3>Video Production</h3>
-        <p>From corporate training to promotional content, we bring your story to life with compelling video.</p>
-        <div class="card-accent"></div>
-      </div>
-      
-      <div class="service-card card-3">
-        <div class="service-icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor">
-            <circle cx="12" cy="12" r="10"/>
-            <line x1="2" y1="12" x2="22" y2="12"/>
-            <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/>
-          </svg>
-        </div>
-        <h3>Web Development</h3>
-        <p>Beautiful, high-performing websites that convert visitors into customers and grow your business.</p>
-        <div class="card-accent"></div>
+      <!-- Animated Words -->
+      <div class="animated-words">
+        <span class="word word-1" data-text="Video">Video</span>
+        <span class="word word-2" data-text="Media">Media</span>
+        <span class="word word-3" data-text="Web">Web</span>
       </div>
     </div>
   </div>
@@ -109,8 +63,9 @@
     --font-heading: 'Poppins', var(--font-primary);
   }
 
-  .hero-header {
-    min-height: 100vh;
+  .site-header {
+    height: 40vh;
+    min-height: 300px;
     background: linear-gradient(135deg, var(--gradient-start) 0%, var(--gradient-end) 50%, var(--dark-teal) 100%);
     color: var(--white);
     position: relative;
@@ -118,6 +73,9 @@
     width: 100vw;
     margin: 0;
     padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
 
   .bg-animation {
@@ -138,61 +96,55 @@
   }
 
   .shape-1 {
-    width: 100px;
-    height: 100px;
+    width: 80px;
+    height: 80px;
     top: 20%;
-    left: 10%;
+    left: 15%;
     animation-delay: 0s;
   }
 
   .shape-2 {
-    width: 60px;
-    height: 60px;
+    width: 50px;
+    height: 50px;
     top: 60%;
-    right: 15%;
+    right: 20%;
     animation-delay: 2s;
   }
 
   .shape-3 {
-    width: 80px;
-    height: 80px;
-    bottom: 20%;
+    width: 60px;
+    height: 60px;
+    bottom: 25%;
     left: 70%;
     animation-delay: 4s;
   }
 
   @keyframes float {
     0%, 100% { transform: translateY(0) rotate(0deg); opacity: 0.7; }
-    50% { transform: translateY(-20px) rotate(180deg); opacity: 1; }
+    50% { transform: translateY(-15px) rotate(180deg); opacity: 1; }
   }
 
-  .hero-container {
+  .header-container {
     position: relative;
     z-index: 10;
+    width: 100%;
     max-width: 1400px;
     margin: 0 auto;
-    padding: 3rem 2rem;
-    display: grid;
-    grid-template-areas: 
-      "logo"
-      "content"
-      "services";
-    gap: 4rem;
+    padding: 2rem;
+    display: flex;
     align-items: center;
-    min-height: 100vh;
+    justify-content: center;
   }
 
   .logo-section {
-    grid-area: logo;
     text-align: center;
-    padding: 2rem 0;
-    position: relative;
+    width: 100%;
   }
 
-  .hero-logo {
-    width: 80%;
+  .header-logo {
+    width: 70%;
     height: auto;
-    max-width: none;
+    max-width: 800px;
     position: relative;
     z-index: 2;
     filter: 
@@ -204,7 +156,7 @@
     transition: transform 0.4s ease, filter 0.3s ease;
   }
 
-  .hero-logo:hover {
+  .header-logo:hover {
     transform: scale(1.02);
     filter: 
       drop-shadow(0 15px 40px rgba(0, 0, 0, 0.7))
@@ -214,284 +166,163 @@
       saturate(1.15);
   }
 
-  .hero-content {
-    grid-area: content;
-    text-align: center;
-    max-width: 800px;
-    margin: 0 auto;
-  }
-
-  .hero-title {
-    font-family: var(--font-heading);
-    font-size: clamp(2.5rem, 6vw, 5rem);
-    font-weight: 800;
-    line-height: 1.1;
-    margin: 0 0 2rem 0;
-    text-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
-  }
-
-  .gradient-text {
-    background: linear-gradient(45deg, var(--accent-orange), var(--accent-coral), var(--electric-blue));
-    background-clip: text;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-size: 300% 300%;
-    animation: gradientShift 4s ease-in-out infinite;
-  }
-
-  @keyframes gradientShift {
-    0%, 100% { background-position: 0% 50%; }
-    50% { background-position: 100% 50%; }
-  }
-
-  .hero-description {
-    font-size: clamp(1.2rem, 2.5vw, 1.5rem);
-    line-height: 1.7;
-    color: rgba(255, 255, 255, 0.95);
-    margin: 0 0 3rem 0;
-    text-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
-    font-weight: 400;
-  }
-
-  .hero-buttons {
+  .animated-words {
+    margin-top: 2rem;
     display: flex;
-    gap: 1.5rem;
     justify-content: center;
+    gap: 3rem;
     flex-wrap: wrap;
   }
 
-  .btn-primary, .btn-secondary {
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    gap: 0.5rem;
-    padding: 1.25rem 2.5rem;
-    font-size: 1.1rem;
-    font-weight: 600;
-    border-radius: 50px;
-    text-decoration: none;
-    transition: all 0.3s ease;
-    border: 2px solid transparent;
-    cursor: pointer;
-    white-space: nowrap;
-    min-width: 220px;
-    position: relative;
-    overflow: hidden;
-  }
-
-  .btn-primary {
-    background: linear-gradient(45deg, var(--accent-orange), var(--accent-coral));
+  .word {
+    font-family: var(--font-heading);
+    font-size: clamp(1.5rem, 4vw, 2.5rem);
+    font-weight: 700;
     color: var(--white);
-    box-shadow: 0 10px 30px rgba(251, 146, 60, 0.4);
+    text-shadow: 0 4px 15px rgba(0, 0, 0, 0.4);
+    opacity: 0;
+    transform: translateY(30px);
+    animation: wordAppear 0.8s ease forwards;
+    position: relative;
+    cursor: default;
+    transition: all 0.3s ease;
   }
 
-  .btn-primary::before {
-    content: '';
+  .word::before,
+  .word::after {
+    content: attr(data-text);
     position: absolute;
     top: 0;
-    left: -100%;
+    left: 0;
     width: 100%;
     height: 100%;
-    background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.2), transparent);
-    transition: left 0.5s ease;
-  }
-
-  .btn-primary:hover::before {
-    left: 100%;
-  }
-
-  .btn-single {
-    min-width: 280px;
-    padding: 1.5rem 3rem;
-    font-size: 1.2rem;
-    font-weight: 700;
-  }
-
-  .btn-primary:hover {
-    transform: translateY(-3px);
-    box-shadow: 0 15px 40px rgba(251, 146, 60, 0.5);
-  }
-
-  .btn-icon {
-    width: 20px;
-    height: 20px;
-    transition: transform 0.3s ease;
-  }
-
-  .btn-primary:hover .btn-icon {
-    transform: translateX(4px);
-  }
-
-  .services-grid {
-    grid-area: services;
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
-    gap: 2rem;
-    margin-top: 2rem;
-  }
-
-  .service-card {
-    background: rgba(255, 255, 255, 0.15);
-    backdrop-filter: blur(20px);
-    border: 1px solid rgba(255, 255, 255, 0.2);
-    border-radius: 24px;
-    padding: 3rem 2.5rem;
-    text-align: center;
-    transition: all 0.4s ease;
-    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
-    position: relative;
-    overflow: hidden;
-  }
-
-  .service-card::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    height: 4px;
-    background: linear-gradient(90deg, var(--accent-orange), var(--electric-blue));
-  }
-
-  .card-accent {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    height: 3px;
-    background: linear-gradient(90deg, transparent, var(--accent-coral), transparent);
     opacity: 0;
-    transition: opacity 0.3s ease;
+    pointer-events: none;
   }
 
-  .service-card:hover .card-accent {
-    opacity: 1;
+  .word::before {
+    color: rgba(255, 255, 255, 0.7);
+    animation: fuzzyGlow 2s ease-in-out infinite;
+    filter: blur(2px);
   }
 
-  .service-card:hover {
-    transform: translateY(-10px);
-    background: rgba(255, 255, 255, 0.25);
-    box-shadow: 0 25px 50px rgba(0, 0, 0, 0.15);
-    border-color: rgba(255, 255, 255, 0.4);
+  .word::after {
+    color: rgba(255, 255, 255, 0.3);
+    animation: fuzzyGlow 2s ease-in-out infinite reverse;
+    filter: blur(4px);
   }
 
-  .service-icon {
-    width: 60px;
-    height: 60px;
-    margin: 0 auto 2rem;
-    padding: 15px;
-    background: linear-gradient(45deg, var(--accent-orange), var(--accent-coral));
-    border-radius: 20px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    box-shadow: 0 8px 25px rgba(251, 146, 60, 0.3);
-    transition: transform 0.3s ease;
+  .word:hover {
+    transform: translateY(-5px);
+    text-shadow: 
+      0 0 10px rgba(255, 255, 255, 0.8),
+      0 0 20px rgba(255, 255, 255, 0.6),
+      0 0 30px rgba(255, 255, 255, 0.4);
+    animation: textFuzzy 0.1s infinite;
   }
 
-  .service-icon svg {
-    width: 30px;
-    height: 30px;
-    color: var(--white);
-    stroke-width: 2;
+  .word-1 {
+    animation-delay: 0.3s;
+    color: #FFE0E6;
+    text-shadow: 
+      0 0 5px rgba(255, 224, 230, 0.8),
+      0 4px 15px rgba(0, 0, 0, 0.4);
   }
 
-  .service-card:hover .service-icon {
-    transform: scale(1.1) rotateY(10deg);
+  .word-2 {
+    animation-delay: 0.6s;
+    color: #E0F7FF;
+    text-shadow: 
+      0 0 5px rgba(224, 247, 255, 0.8),
+      0 4px 15px rgba(0, 0, 0, 0.4);
   }
 
-  .service-card h3 {
-    font-family: var(--font-heading);
-    font-size: 1.5rem;
-    font-weight: 700;
-    margin: 0 0 1.5rem 0;
-    color: var(--white);
-    text-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+  .word-3 {
+    animation-delay: 0.9s;
+    color: #E8FFE8;
+    text-shadow: 
+      0 0 5px rgba(232, 255, 232, 0.8),
+      0 4px 15px rgba(0, 0, 0, 0.4);
   }
 
-  .service-card p {
-    color: rgba(255, 255, 255, 0.9);
-    line-height: 1.7;
-    margin: 0;
-    font-size: 1.05rem;
-    text-shadow: 0 1px 5px rgba(0, 0, 0, 0.2);
+  @keyframes wordAppear {
+    from {
+      opacity: 0;
+      transform: translateY(30px) rotateX(90deg);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0) rotateX(0deg);
+    }
   }
 
-  /* Enhanced Responsive Design */
+  @keyframes fuzzyGlow {
+    0%, 100% { 
+      opacity: 0;
+      transform: scale(1);
+    }
+    50% { 
+      opacity: 0.6;
+      transform: scale(1.02);
+    }
+  }
+
+  @keyframes textFuzzy {
+    0% { transform: translateY(-5px) translateX(0); }
+    20% { transform: translateY(-5px) translateX(-0.5px); }
+    40% { transform: translateY(-5px) translateX(0.5px); }
+    60% { transform: translateY(-5px) translateX(-0.3px); }
+    80% { transform: translateY(-5px) translateX(0.3px); }
+    100% { transform: translateY(-5px) translateX(0); }
+  }
+
+  /* Responsive Design */
   @media (max-width: 768px) {
-    .hero-container {
-      padding: 2rem 1rem;
-      gap: 3rem;
+    .site-header {
+      height: 30vh;
+      min-height: 250px;
     }
 
-    .logo-section {
-      padding: 1.5rem 0;
+    .header-container {
+      padding: 1.5rem;
     }
 
-    .hero-logo {
-      width: 85%;
+    .header-logo {
+      width: 80%;
     }
 
-    .hero-buttons {
-      flex-direction: column;
-      align-items: center;
+    .animated-words {
+      gap: 2rem;
+      margin-top: 1.5rem;
     }
 
-    .btn-single {
-      width: 100%;
-      max-width: 350px;
+    .word {
+      font-size: clamp(1.2rem, 5vw, 1.8rem);
     }
-
-    .services-grid {
-      grid-template-columns: 1fr;
-      gap: 1.5rem;
-    }
-
-    .service-card {
-      padding: 2.5rem 2rem;
-    }
+  }
 
     .floating-shape {
       display: none;
     }
+
+  @media (min-width: 769px) and (max-width: 1024px) {
+    .header-logo {
+      width: 65%;
+    }
   }
 
-  @media (min-width: 1024px) {
-    .hero-container {
-      grid-template-areas: 
-        "logo logo"
-        "content services";
-      grid-template-columns: 1fr 1fr;
+  @media (min-width: 1025px) {
+    .site-header {
+      height: 45vh;
+      min-height: 350px;
+    }
+
+    .header-logo {
+      width: 60%;
+    }
+
+    .animated-words {
       gap: 4rem;
-      padding: 4rem 3rem;
-    }
-
-    .hero-content {
-      text-align: left;
-      margin: 0;
-    }
-
-    .hero-buttons {
-      justify-content: flex-start;
-    }
-
-    .hero-logo {
-      width: 75%;
-    }
-
-    .services-grid {
-      grid-template-columns: 1fr;
-      margin-top: 0;
-    }
-  }
-
-  @media (min-width: 1200px) {
-    .hero-logo {
-      width: 70%;
-    }
-
-    .hero-container {
-      padding: 5rem 4rem;
     }
   }
 </style>
