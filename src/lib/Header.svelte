@@ -38,14 +38,11 @@
       </p>
       
       <div class="hero-buttons">
-        <a href="mailto:dale@rushmediatech.com?subject=New Project Inquiry&body=Hi Dale,%0D%0A%0D%0AI'm interested in discussing a new project with Rush Media Tech. Please let me know when we can schedule a time to talk.%0D%0A%0D%0AThank you!" class="btn-primary">
+        <a href="mailto:dale@rushmediatech.com?subject=New Project Inquiry&body=Hi Dale,%0D%0A%0D%0AI'm interested in discussing a new project with Rush Media Tech. Please let me know when we can schedule a time to talk.%0D%0A%0D%0AThank you!" class="btn-primary btn-single">
           <span>Start Your Project</span>
           <svg class="btn-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor">
             <path d="M5 12h14M12 5l7 7-7 7"/>
           </svg>
-        </a>
-        <a href="/services" class="btn-secondary">
-          <span>View Our Services</span>
         </a>
       </div>
     </div>
@@ -316,6 +313,13 @@
     left: 100%;
   }
 
+  .btn-single {
+    min-width: 280px;
+    padding: 1.5rem 3rem;
+    font-size: 1.2rem;
+    font-weight: 700;
+  }
+
   .btn-primary:hover {
     transform: translateY(-3px);
     box-shadow: 0 15px 40px rgba(251, 146, 60, 0.5);
@@ -329,20 +333,6 @@
 
   .btn-primary:hover .btn-icon {
     transform: translateX(4px);
-  }
-
-  .btn-secondary {
-    background: rgba(255, 255, 255, 0.1);
-    color: var(--white);
-    border-color: rgba(255, 255, 255, 0.3);
-    backdrop-filter: blur(10px);
-  }
-
-  .btn-secondary:hover {
-    background: rgba(255, 255, 255, 0.2);
-    border-color: var(--white);
-    transform: translateY(-3px);
-    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
   }
 
   .services-grid {
@@ -461,9 +451,9 @@
       align-items: center;
     }
 
-    .btn-primary, .btn-secondary {
+    .btn-single {
       width: 100%;
-      max-width: 320px;
+      max-width: 350px;
     }
 
     .services-grid {
