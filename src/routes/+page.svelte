@@ -11,6 +11,7 @@
   <meta property="og:title" content="Rush Media Tech - Professional Media & Web Services in Raleigh, NC" />
   <meta property="og:description" content="Professional photography, video production, and web development services that elevate your brand. Serving Raleigh and North Carolina businesses." />
   <meta property="og:url" content="https://rushmediatech.com" />
+  <link rel="canonical" href="https://rushmediatech.com" />
   <meta property="og:image" content="https://rushmediatech.com/og-image.jpg" />
   <meta property="og:image:width" content="1200" />
   <meta property="og:image:height" content="630" />
