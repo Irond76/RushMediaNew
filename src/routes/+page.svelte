@@ -34,6 +34,12 @@
         </div>
         <h3>Visual Content & Media</h3>
         <p>Professional photography and video content that stops the scroll and drives engagement across all platforms.</p>
+        <div class="card-cta">
+          <span class="learn-more">Learn More</span>
+          <svg class="arrow-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+            <path d="M5 12h14M12 5l7 7-7 7"/>
+          </svg>
+        </div>
         <div class="card-accent"></div>
       </a>
       
@@ -46,6 +52,12 @@
         </div>
         <h3>Video Production</h3>
         <p>From corporate training to promotional content, we bring your story to life with compelling video.</p>
+        <div class="card-cta">
+          <span class="learn-more">Learn More</span>
+          <svg class="arrow-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+            <path d="M5 12h14M12 5l7 7-7 7"/>
+          </svg>
+        </div>
         <div class="card-accent"></div>
       </a>
       
@@ -59,6 +71,12 @@
         </div>
         <h3>Web Development</h3>
         <p>Beautiful, high-performing websites that convert visitors into customers and grow your business.</p>
+        <div class="card-cta">
+          <span class="learn-more">Learn More</span>
+          <svg class="arrow-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+            <path d="M5 12h14M12 5l7 7-7 7"/>
+          </svg>
+        </div>
         <div class="card-accent"></div>
       </a>
     </div>
@@ -235,7 +253,8 @@
     overflow: hidden;
     text-decoration: none;
     color: inherit;
-    display: block;
+    display: flex;
+    flex-direction: column;
     cursor: pointer;
   }
 
@@ -320,8 +339,42 @@
   .service-card p {
     color: var(--medium-gray);
     line-height: 1.7;
-    margin: 0;
+    margin: 0 0 1.5rem 0;
     font-size: 1.05rem;
+  }
+
+  .card-cta {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: auto;
+    padding-top: 1rem;
+    border-top: 1px solid rgba(20, 184, 166, 0.1);
+  }
+
+  .learn-more {
+    font-weight: 600;
+    color: var(--primary-teal);
+    font-size: 0.95rem;
+    transition: color 0.3s ease;
+  }
+
+  .arrow-icon {
+    width: 18px;
+    height: 18px;
+    color: var(--primary-teal);
+    transition: all 0.3s ease;
+    opacity: 0.7;
+  }
+
+  .service-card:hover .learn-more {
+    color: var(--charcoal);
+  }
+
+  .service-card:hover .arrow-icon {
+    transform: translateX(4px);
+    opacity: 1;
+    color: var(--charcoal);
   }
 
   /* Enhanced Responsive Design */
